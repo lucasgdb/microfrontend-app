@@ -1,0 +1,10 @@
+{
+  "extends": "ts-config-single-spa",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "declarationDir": "dist",
+    "types": ["jest", "@testing-library/jest-dom"]
+  },
+  "files": ["src/my-app-home.tsx"],
+  "include": ["src/**/*"]
+}
